@@ -1,4 +1,4 @@
-/* CAUTION
+/* CAUTION Sandbox
  This code will cause the array songs to be null sometimes.
  This must be error checked
  */
@@ -11,8 +11,9 @@ import ddf.minim.spi.*;
 import ddf.minim.ugens.*;
 //
 //Global Variables
-String path = new File("").getAbsolutePath(); //Exported Program
-String directory = "//FS-052/studuser$/Gr11/a.tabarsi/My Documents/GitHub/Sanbox-App-Engine-P3/App_Engine"; //Not Exported
+String path = new File("//FS-052/studuser$/Gr11/a.tabarsi/My Documents/GitHub/Sanbox-App-Engine-P3/APP_MUSIC").getAbsolutePath(); //Exported Program
+//CAUTION: GitHub must be linked to the C-Drive instead of FS ... This might need a lesson
+String directory = ""; //Not Exported
 //Reminder: \n is a character escape, so pathway must have forward slashes
 //
 Minim minim; //creates an object to access all functions
